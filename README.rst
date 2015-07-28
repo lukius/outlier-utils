@@ -5,6 +5,10 @@ outlier-utils
 .. image:: https://travis-ci.org/c-bata/outlier-utils.svg
     :target: https://travis-ci.org/c-bata/outlier-utils
 
+
+.. image:: https://coveralls.io/repos/c-bata/outlier-utils/badge.svg?branch=master&service=github
+  :target: https://coveralls.io/github/c-bata/outlier-utils?branch=master
+
 This is the library for removing outliers.
 
 - Smirnov Grubbs Tests
@@ -27,11 +31,13 @@ This is the library for removing outliers.
    >>> grubbs.test(data, 0.05)
    [ 8  9 10  9]
 
+
 Requirements
 ============
 
 * Traget Python version is 2.7, 3.4
 * numpy / scipy / pandas
+
 
 License
 =======
