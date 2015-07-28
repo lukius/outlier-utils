@@ -2,7 +2,10 @@
 outlier-utils
 =============
 
-This is the utils library for removing outliers.
+.. image:: https://travis-ci.org/c-bata/outlier-utils.svg
+    :target: https://travis-ci.org/c-bata/outlier-utils
+
+This is the library for removing outliers.
 
 - Smirnov Grubbs Tests
 
@@ -23,3 +26,14 @@ This is the utils library for removing outliers.
    >>> data = np.array([1, 8, 9, 10, 9])
    >>> grubbs.test(data, 0.05)
    [ 8  9 10  9]
+
+Requirements
+============
+
+* Traget Python version is 2.7, 3.4
+* numpy / scipy / pandas
+
+License
+=======
+
+This software is licensed under the MIT License.
